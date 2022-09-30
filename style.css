@@ -44,8 +44,14 @@ body h2{
     /* Display */
     display: flex;
 
-    height: 150px;
+    /* Organizes items along the main axis */
     justify-content: space-evenly;
+
+    /* Organizes items along the cross axis */
+    align-items: baseline;
+
+    align-content: stretch;
+
 
 
 }
@@ -67,4 +73,5 @@ body h2{
     background-color: orange;
     text-shadow: 1px 1px 1px #333;
 }
+
 
