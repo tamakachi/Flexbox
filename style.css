@@ -41,12 +41,22 @@ body h2{
     box-shadow: 0 0 10px 2px;
     height: 300px;
 
+    /* Display */
+    display: flex;
+
+    height: 150px;
+    justify-content: space-evenly;
+
+
 }
 
 #Children .flexbox-container{
     background-color: #333;
     box-shadow: 0 0 10px 2px;
     height: 300px;
+
+    /* Display */
+    display: flex;
     
 }
 
